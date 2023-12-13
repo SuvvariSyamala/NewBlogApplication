@@ -1,0 +1,6 @@
+D:\angular\BlogApplicationWebAPI\EBlogTesting\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\angular\BlogApplicationWebAPI\EBlogTesting\obj\Debug\net6.0\EBlogTesting.csproj.AssemblyReference.cache
+D:\angular\BlogApplicationWebAPI\EBlogTesting\obj\Debug\net6.0\EBlogTesting.GeneratedMSBuildEditorConfig.editorconfig
+D:\angular\BlogApplicationWebAPI\EBlogTesting\obj\Debug\net6.0\EBlogTesting.AssemblyInfoInputs.cache
+D:\angular\BlogApplicationWebAPI\EBlogTesting\obj\Debug\net6.0\EBlogTesting.AssemblyInfo.cs
+D:\angular\BlogApplicationWebAPI\EBlogTesting\obj\Debug\net6.0\EBlogTesting.csproj.CoreCompileInputs.cache

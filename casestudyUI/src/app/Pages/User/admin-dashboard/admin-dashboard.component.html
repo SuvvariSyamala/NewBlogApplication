@@ -1,0 +1,34 @@
+
+<div class="container-fluid" id="main">
+    <div class="row row-offcanvas row-offcanvas-left">
+        <div class="col-md-3 col-lg-2 sidebar-offcanvas bg-light pl-0" id="sidebar" role="navigation">
+            <p>Hello {{userName}}!</p>
+            <p>Welcome to BlogSphere Admin</p>
+            <ul class="nav flex-column sticky-top pl-0 pt-5 mt-3">
+
+                <li class="nav-item"><a class="nav-link" [routerLink]="'getallposts'">GetAllBlogs</a> </li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="'getallusers'">GetAllUsers</a> </li>
+
+                <li class="nav-item"><a class="nav-link"[routerLink]="'addcategory'">Add Categories</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="'getallcategories'">GetAllCategory</a> </li>
+                <!-- <li class="nav-item"><a class="nav-link" [routerLink]="'login'">LogOut</a></li>  -->
+                <!-- <li class="nav-item"><a class="nav-link" (click)="logout()">LogOut</a></li> -->
+                <li class="nav-item"><a class="nav-link" [routerLink]="'addpost'">Add Blogs</a> </li>
+                <!-- <li class="nav-item"><a class="nav-link" [routerLink]="'getallcomments'">GetAllComments</a> </li> -->
+                <li class="nav-item"><a class="nav-link" [routerLink]="'logout'">LogOut</a></li> 
+                
+
+
+
+            </ul> 
+        </div>
+        
+
+        <div class="col main pt-5 mt-3">
+            <router-outlet></router-outlet>
+
+        </div>
+    
+    </div>
+
+</div>

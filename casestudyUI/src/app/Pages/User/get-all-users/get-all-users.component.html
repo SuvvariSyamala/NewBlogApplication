@@ -1,0 +1,32 @@
+<div class="container">
+    <h5>Search User By Name</h5>
+   
+    <input type="text" [(ngModel)]="userName" class="form-control">
+  
+    <button class="btn btn-primary mt-3" (click)="searchUser()">Search</button> 
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>User Name</th>
+                <!-- <th>Role</th> -->
+                <th>User Email</th>
+                <th>Action</th>
+                <!-- <th>User Status</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of users">
+                <td>{{u.userId}}</td>
+                <td>{{u.userName}}</td>
+                <!-- <td>{{u.role}}</td> -->
+                <td>{{u.email}}</td>
+                <!-- <td>{{u.userSatus}}</td> -->
+                <td colspan="2">
+                    <button class="btn btn-primary" (click)="unblock(u.userId)">Unblock</button> &nbsp;
+                    <button class="btn btn-primary" (click)="block(u.userId)">Block</button>
+                </td>
+            </tr>
+        </tbody>
+    </table> 
+</div>
